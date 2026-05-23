@@ -15,7 +15,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI 
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/review_and_rating";
 
 // Standard Middlewares
 app.use(cors({ origin: "*" })); // Allow all for workspace integration
