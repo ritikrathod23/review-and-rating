@@ -1,0 +1,11 @@
+{
+  "name": "@repo/configs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared configurations for ESLint, Prettier, and TypeScript",
+  "exports": {
+    "./tsconfig/base": "./tsconfig.base.json",
+    "./tsconfig/nextjs": "./tsconfig.nextjs.json",
+    "./tsconfig/node": "./tsconfig.node.json"
+  }
+}

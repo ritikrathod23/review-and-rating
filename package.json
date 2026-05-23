@@ -1,0 +1,25 @@
+{
+  "name": "review-rating-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready MERN Stack Review & Rating Platform Monorepo",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "type-check": "turbo run type-check"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.0",
+    "typescript": "^5.4.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0"
+    }
+  },
+  "packageManager": "pnpm@10.33.1"
+}
